@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in(polegada), px(pixel), pt(ponto), pc(paica)
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: 600;
+            /* weight(peso), width(largura), height(altura) */
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1 {
+            
+            /* shorthand  font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work Sans';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga molestiae vero similique exercitationem reiciendis esse provident nesciunt commodi sapiente laudantium, at beatae explicabo quidem tempora non vitae delectus quasi voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minus aspernatur ullam asperiores, officia ab, sint nulla rerum nobis doloribus, sapiente commodi! Facilis tenetur amet unde nemo, cumque earum velit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aliquid, explicabo amet facere itaque recusandae dolorum nemo aut dolorem numquam similique molestias quas eveniet fugiat? In id exercitationem aliquid sapiente?</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur mollitia nobis at, sequi commodi corrupti vero, quis laudantium nemo modi numquam? Nulla a perferendis nostrum animi dolorem ea eveniet dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis animi fuga quis perferendis quo atque totam quia quibusdam recusandae nemo harum voluptatum natus quaerat aperiam ipsa aspernatur, explicabo commodi illum.</p>
+</body>
+</html>
