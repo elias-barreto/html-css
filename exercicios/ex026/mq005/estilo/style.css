@@ -21,8 +21,22 @@ header > h1 {
     text-align: center;
 }
 
+svg#burguer {
+    background-color: rgb(70, 69, 69);
+    color: white;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+svg#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
